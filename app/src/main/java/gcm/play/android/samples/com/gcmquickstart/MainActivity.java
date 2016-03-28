@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
                             jData.put("message", "Hello test gcm!");
                             // Where to send GCM message.
                             if (true) {
+                                /*
+                                Change the token here to send out the message to where you want. jGcmData.put("to","[the receiver's token]")
+                                 */
                                 //jGcmData.put("to", "e0GunyxfHso:APA91bFG_T25p6KA9lKrpvtke7vyokVBe6R0ojGA8b43CXIAHSQB1Zhgnv0FDsPwQ5gcST91c5X3IyUeq8sNzTyxiBsB9wfRj7nDq1qQj8Q1lAJ66Nf5Y7Zr6z15Cxh9DF4XhnKmRpKz".trim());
                                 jGcmData.put("to", "ewhEdfx61Yk:APA91bGdSLBiO3QSKv2OBk1G2WpvUeD0mQ9J0jU-HsRoW1C8jnr3M3EDPvV_r7sSC4GhByCiC4OI6Q0MH3PgyClX6NpkFHl7tvv0fuvr7OQxCQxCh8_mb9ZgSN47qFn_9izTnH5SA5f9".trim());
                             } else {
